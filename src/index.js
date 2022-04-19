@@ -3,4 +3,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
+
+import { Provider } from "react-redux";
+import store from "./redux/store"
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
