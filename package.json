@@ -1,5 +1,5 @@
 {
-  "name": "toolkit-cart",
+  "name": "persist",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
